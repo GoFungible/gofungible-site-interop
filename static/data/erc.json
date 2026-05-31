@@ -33,6 +33,7 @@
 	{ "erc": "ERC-7406", "keywords": "standardization.registry", "title": "Multi-Namespace Onchain Registry", "desc": "An universally accepted multi-namespace registry with mapping structures on the Ethereum", "url": "https://eips.ethereum.org/EIPS/eip-7406" },
 	{ "erc": "ERC-7812", "keywords": "standardization.registry", "title": "ZK Identity Registry", "desc": "Singleton registry system for storing abstract private provable statements.", "url": "https://eips.ethereum.org/EIPS/eip-7812" },
 	{ "erc": "ERC-6981", "keywords": "standardization.registry", "title": "Reserved Ownership Accounts", "desc": "A registry for generating future-deployed smart contract accounts owned by users on external services", "url": "https://eips.ethereum.org/EIPS/eip-6981" },
+	{ "erc": "ERC-8048", "keywords": "standardization.registry", "title": "Onchain Metadata for Token Registries", "desc": "A key-value store interface that allows registries to store and retrieve arbitrary bytes as metadata directly onchain.", "url": "https://eips.ethereum.org/EIPS/eip-8048" },
 
 	{ "erc": "EIP-7837", "keywords": "standardization.supply.mint", "title": "Diffusive Tokens", "desc": "A fungible token that mints new tokens on transfer, charges a per-token native fee, and enforces a capped supply.", "url": "https://eips.ethereum.org/EIPS/eip-7837" },
 	{ "erc": "EIP-7770", "keywords": "standardization.supply.mint", "title": "Fractional Reserve Token", "desc": "An interface for tokens that maintain a peg to an underlying token while being only partially redeemable to this token.", "url": "https://eips.ethereum.org/EIPS/eip-7770" },
@@ -56,6 +57,7 @@
 	{ "erc": "EIP-5216", "keywords": "standardization.permit", "title": "ERC-1155 Allowance Extension", "desc": "Extension for ERC-1155 secure approvals", "url": "https://eips.ethereum.org/EIPS/eip-5216" },
 	{ "erc": "EIP-6366", "keywords": "standardization.permit", "title": "Permission Token", "desc": "A token that holds the permission of an address in an ecosystem", "url": "https://eips.ethereum.org/EIPS/eip-6366" },
 	{ "erc": "EIP-7597", "keywords": "standardization.permit", "title": "Signature Validation Extension for Permit", "desc": "An ERC to extend ERC-2612 Permit to support ERC-1271-based signature validation.", "url": "https://eips.ethereum.org/EIPS/eip-7597" },
+	{ "erc": "EIP-8255", "keywords": "standardization.permit", "title": "Expiring Token Approvals", "desc": "Token approvals expire after a bounded duration by default.", "url": "https://eips.ethereum.org/EIPS/eip-8255" },
 
 	{ "erc": "ERC-7720", "keywords": "standardization.transfer.lifecycle", "title": "Deferred Token Transfer", "desc": "Allows users to schedule ERC-20 token transfers for withdrawal at a specified future time, enabling deferred payments.", "url": "https://eips.ethereum.org/EIPS/eip-7720" },
 	{ "erc": "ERC-7699", "keywords": "standardization.transfer.lifecycle", "title": "Transfer Reference Extension", "desc": "Include a unique identifier (transfer or payment reference) for each ERC-20 transaction to associate transfers with orders/invoices.", "url": "https://eips.ethereum.org/EIPS/eip-7699" },
@@ -106,10 +108,15 @@
 	{ "erc": "ERC-7722", "keywords": "principles.privacy", "title": "Opaque Token", "desc": "A token specification designed to enhance privacy by concealing balance information.", "url": "https://eips.ethereum.org/EIPS/eip-7722" },
 	{ "erc": "ERC-8065", "keywords": "principles.privacy", "title": "Zero Knowledge Token Wrapper", "desc": "Enables any token to be wrapped, allowing secretly burnt tokens to be reminted — making privacy a native feature of every token.", "url": "https://eips.ethereum.org/EIPS/eip-8065" },
 	{ "erc": "ERC-7945", "keywords": "principles.privacy", "title": "Confidential Transactions Supported Token", "desc": "Confidential transactions hide token amounts. This proposal outlines a fungible confidential token interface, boosting privacy in dApps.", "url": "https://eips.ethereum.org/EIPS/eip-7945" },
+	{ "erc": "EIP-8182", "keywords": "principles.privacy", "title": "Private ETH and ERC-20 Transfers", "desc": "A canonical validity layer for private ETH and compatible ERC-20 transfers via a system contract and verifier precompile.", "url": "https://eips.ethereum.org/EIPS/eip-8182" },
+	{ "erc": "ERC-8084", "keywords": "principles.privacy", "title": "Zero-knowledge proof metadata", "desc": "ZKmeta is a method to discover ZK circuit identifiers, semantic versions, verification keys, public input schemas.", "url": "https://eips.ethereum.org/EIPS/eip-8084" },
+	{ "erc": "ERC-8085", "keywords": "principles.privacy", "title": "Dual-Mode Fungible Tokens", "desc": "Fungible tokens supporting both transparent (ERC-20) and privacy-preserving (zk-SNARK) modes with seamless conversion", "url": "https://eip.tools/eip/8085" },
+	{ "erc": "ERC-8086", "keywords": "principles.privacy", "title": "Privacy Token", "desc": "An abstract privacy foundation layer that can be used in both dual-mode tokens and wrapped tokens", "url": "https://eip.tools/eip/eip-8086" },
 
 	{ "erc": "ERC-2980", "keywords": "principles.compliance", "title": "Swiss Compliant Asset Token", "desc": "An interface for asset tokens, compliant with Swiss Law and compatible with [ERC-20](./eip-20.md).", "url": "https://eips.ethereum.org/EIPS/eip-2980" },
 	{ "erc": "ERC-884",  "keywords": "principles.compliance", "title": "DGCL Token", "desc": "An ERC-20 compatible token that conforms to Delaware State Senate, 149th General Assembly, Senate Bill No. 69: An act to Amend Title 8 of the Delaware Code Relating to the General Corporation Law, henceforth referred to as ‘The Act’.", "url": "https://eips.ethereum.org/EIPS/eip-884" },
-	{ "erc": "ERC-8106",  "keywords": "principles.compliance", "title": "RWA Event-based Compliance Framework", "desc": "Event-driven compliance framework for Real World Asset tokens with entity classification and audit events.", "url": "https://eips.ethereum.org/EIPS/eip-8106" },
+	{ "erc": "ERC-8106", "keywords": "principles.compliance", "title": "RWA Event-based Compliance Framework", "desc": "Event-driven compliance framework for Real World Asset tokens with entity classification and audit events.", "url": "https://eips.ethereum.org/EIPS/eip-8106" },
+	{ "erc": "ERC-8040", "keywords": "principles.compliance", "title": "ESG Tokenization Protocol", "desc": "Environmental, Social, and Governance (ESG) asset tokenization with metadata, attestations, and lifecycle integrity.", "url": "https://eips.ethereum.org/EIPS/eip-8040" },
 
 	{ "erc": "ERC-2535", "keywords": "immutability.proxy", "title": "Diamonds, Multi-Facet Proxy", "desc": "Create modular smart contract systems that can be extended after deployment.", "url": "https://eips.ethereum.org/EIPS/eip-2535" },
 	{ "erc": "ERC-8109", "keywords": "immutability.proxy", "title": "Diamonds, Simplified", "desc": "A simplified diamond architecture for modular smart contract systems.", "url": "https://eips.ethereum.org/EIPS/eip-8109" },
@@ -128,7 +135,9 @@
 	{ "erc": "ERC-4931", "keywords": "immutability.proxy", "title": "Generic Token Upgrade Standard", "desc": "Create a standard interface for upgrading ERC20 token contracts.", "url": "https://eips.ethereum.org/EIPS/eip-4931" },
 	{ "erc": "ERC-3561", "keywords": "immutability.proxy", "title": "Trust Minimized Upgradeability Proxy", "desc": "proxy with a delay before specified upgrade goes live", "url": "https://eips.ethereum.org/EIPS/eip-3561" },
 	{ "erc": "ERC-3448", "keywords": "immutability.proxy", "title": "MetaProxy Standard", "desc": "A minimal bytecode implementation for creating proxy contracts with immutable metadata attached to the bytecode", "url": "https://eips.ethereum.org/EIPS/eip-3448" },
-	
+	{ "erc": "ERC-8167", "keywords": "immutability.proxy", "title": "Modular Dispatch Proxies", "desc": "Proxy-level function dispatch via delegatecall", "url": "https://eips.ethereum.org/EIPS/eip-8167" },
+	{ "erc": "ERC-8152", "keywords": "immutability.proxy", "title": "Content-Addressable Logic Modules (CALM)", "desc": "Content-addressable logic modules for proxy architectures. Multichain consistent and permissionlessly replicable, leading to gas-efficiency.", "url": "https://eips.ethereum.org/EIPS/eip-8152" },
+
 	{ "erc": "ERC-7936", "keywords": "immutability.versioning", "title": "Versioned Proxy Contract Interface", "desc": "Multi-version proxy contracts that allow callers to select implementation", "url": "https://eips.ethereum.org/EIPS/eip-7936" },
 
 	{ "erc": "EIP-8107", "keywords": "interoperability.identification", "title": "ENS Trust Registry for Agent Coordination", "desc": "Web of trust validation using ENS names for ERC-8001 multi-party coordination.", "url": "https://eips.ethereum.org/EIPS/eip-81070" },
@@ -167,6 +176,7 @@
 	{ "erc": "ERC-6170", "keywords": "interoperability.messaging", "title": "Cross-Chain Messaging Interface", "desc": "A common smart contract interface for interacting with messaging protocols.", "url": "https://eips.ethereum.org/EIPS/eip-6170" },
 	{ "erc": "ERC-7786", "keywords": "interoperability.messaging", "title": "Cross-Chain Messaging Gateway", "desc": "An interface for contracts to send and receive cross-chain messages containing arbitrary data.", "url": "https://eips.ethereum.org/EIPS/eip-7786" },
 	{ "erc": "ERC-7841", "keywords": "interoperability.messaging", "title": "Cross-chain Message Format and Mailbox", "desc": "A mailbox API and message format to provide a unified cross-chain developer experience.", "url": "https://eips.ethereum.org/EIPS/eip-7841" },
+	{ "erc": "ERC-8180", "keywords": "interoperability.messaging", "title": "Blob Authenticated Messaging", "desc": "Interfaces for authenticated messaging over EIP-4844 blobs with on-chain decoder discovery.", "url": "https://eips.ethereum.org/EIPS/eip-8180" },
 
 	{ "erc": "ERC-5164", "keywords": "interoperability.execution", "title": "Cross-Chain Execution", "desc": "Defines an interface that supports execution across EVM networks.", "url": "https://eips.ethereum.org/EIPS/eip-5164" },
 	{ "erc": "ERC-8121", "keywords": "interoperability.execution", "title": "Cross-Chain Function Calls via Hooks", "desc": "A method for delegating metadata resolution to a different contract via hooks.", "url": "https://github.com/ethereum/ERCs/pull/1456" },
