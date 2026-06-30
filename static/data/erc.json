@@ -40,6 +40,7 @@
 	{ "erc": "ERC-4886", "keywords": "standardization.access.ownership", "title": "Proxy Ownership Register", "desc": "A proxy ownership register allowing trustless proof of ownership between Ethereum addresses, with delegated asset delivery", "url": "https://eips.ethereum.org/EIPS/eip-4886" },
 	{ "erc": "ERC-5313", "keywords": "standardization.access.ownership", "title": "Light Contract Ownership", "desc": "An interface for identifying ownership of contracts", "url": "https://eips.ethereum.org/EIPS/eip-5313" },
 	{ "erc": "ERC-2767", "keywords": "standardization.access.ownership", "title": "Contract Ownership Governance", "desc": "A standard for Governance contracts that holds the administrative ownership of other smart contracts with voting power distributed as ERC-20 tokens.", "url": "https://eips.ethereum.org/EIPS/eip-2767" },
+	{ "erc": "--------", "keywords": "standardization.access.ownership", "title": "Ownable2Step", "desc": "Contract module which provides access control mechanism, where there is an account (an owner) that can be granted exclusive access to specific functions..", "url": "https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable2Step" },
 
 	{ "erc": "ERC-7820", "keywords": "standardization.access.role", "title": "Access Control Registry", "desc": "Registration, unregistration, role assignment, and role revocation for contracts, ensuring secure and transparent role management.", "url": "https://eips.ethereum.org/EIPS/eip-7820" },
 	{ "erc": "ERC-5982", "keywords": "standardization.access.role", "title": "Role-based Access Control", "desc": "An interface for role-based access control for smart contracts.", "url": "https://eips.ethereum.org/EIPS/eip-5982" },
@@ -89,7 +90,7 @@
 
 	{ "erc": "ERC-827",  "keywords": "standardization.transfer.hooks", "title": "Token Standard", "desc": "A extension of the standard interface ERC20 for tokens with methods that allows the execution of calls inside transfer and approvals.", "url": "https://github.com/ethereum/EIPs/issues/827" },
 	{ "erc": "ERC-7994", "keywords": "standardization.transfer.hooks", "title": "Purpose-Bound ERC-20 with Conditional Unlock", "desc": "Extends ERC-20 with programmable restrictions, enabling transfers based on multiple unlock conditions as defined in EIP-7291.", "url": "https://eips.ethereum.org/EIPS/eip-7994" },
-	{ "erc": "ERC-1336", "keywords": "standardization.transfer.hooks", "title": "", "desc": "", "url": "" },
+	{ "erc": "ERC-1336", "keywords": "standardization.transfer.hooks", "title": "Payable Token Standard", "desc": "Extension for ERC-20 tokens that supports executing callbacks on receiver contracts.", "url": "https://erc1363.org/" },
 
 	{ "erc": "ERC-223",  "keywords": "standardization.transfer.security", "title": "Token Standard", "desc": "Token with transaction handling model", "url": "https://eips.ethereum.org/EIPS/eip-223" },
 	{ "erc": "ERC-7968", "keywords": "standardization.transfer.security", "title": "Owner-Authorized Token Transfer Protocol", "desc": "Enable third parties to transfer tokens authorized by a signed message.", "url": "https://eips.ethereum.org/EIPS/eip-7968" },
