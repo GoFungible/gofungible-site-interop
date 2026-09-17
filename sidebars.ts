@@ -47,6 +47,17 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
+			label: 'Interop Paradigms',
+			link: {
+				type: "doc",
+				id: 'intercom/paradigms/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/paradigms/intro',
+			]
+		}, {
+			type: 'category',
 			label: 'Trust Models',
 			link: {
 				type: "doc",
@@ -57,17 +68,6 @@ const sidebars: SidebarsConfig = {
 				'intercom/trust/trusted',
 				'intercom/trust/minimized',
 				'intercom/trust/trustless',
-			]
-		}, {
-			type: 'category',
-			label: 'Interop Paradigms',
-			link: {
-				type: "doc",
-				id: 'intercom/paradigms/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/paradigms/intro',
 			]
 		}, {
 			type: 'category',
