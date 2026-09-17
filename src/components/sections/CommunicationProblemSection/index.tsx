@@ -8,8 +8,8 @@ export default function CommunicationProblemSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="The Interchain Communication Problem"
-				subtitle="Blockchains were not designed to communicate which each other causing a liquidity fragmentation problem."
+				title="The Liquidity Fragmentation Problem"
+				subtitle="Blockchains were not designed to communicate which each other so liquidity is split across the chains."
 				variant="secondary"
 				padding="large"
 				headerSpacing="large"

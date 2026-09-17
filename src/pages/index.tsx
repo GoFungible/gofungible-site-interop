@@ -11,13 +11,13 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`ERC-7786 Adapters - ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
 
 			<BackgroundImageHeader
         backgroundImage="https://scx2.b-cdn.net/gfx/news/hires/2013/subarcticlak.jpg"
-        title="Fungible Interoperability"
-        subtitle="Simplicity is the ultimate sophistication"
+        title="Cross-chain Interoperability"
+        subtitle="Implementation of ERC-7786 Adapters"
         textSide="right"
         overlayOpacity={0.4}
       />
