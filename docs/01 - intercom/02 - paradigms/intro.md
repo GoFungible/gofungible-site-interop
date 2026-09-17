@@ -5,6 +5,6 @@
 
 ## Offchain
 
-## Onchain (<-)
+## Onchain
 
 ## Intents
