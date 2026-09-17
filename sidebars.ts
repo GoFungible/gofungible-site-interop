@@ -74,7 +74,8 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'intercom/communication/intro',
+				'intercom/communication/1way',
+				'intercom/communication/2way',
 			]
 		}, {
 			type: 'category',
