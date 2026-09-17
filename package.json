@@ -47,5 +47,8 @@
   },
   "engines": {
     "node": ">=20.0"
-  }
+  },
+	"resolutions": {
+    "webpackbar": "^7.0.0"
+	}
 }
