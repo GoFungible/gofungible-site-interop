@@ -90,13 +90,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'intercomSidebar',
           position: 'left',
-          label: 'Interchain Communication',
+          label: 'Cross-chain Communication',
         },
 				{
           type: 'docSidebar',
-          sidebarId: 'patternsSidebar',
+          sidebarId: 'adaptersSidebar',
           position: 'left',
-          label: 'Interoperability Patterns',
+          label: 'ERC-7786 Adapters',
         },
 				//{to: '/blog', label: 'Blog', position: 'right'},
         {

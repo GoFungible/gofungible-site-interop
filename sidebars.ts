@@ -90,11 +90,9 @@ const sidebars: SidebarsConfig = {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		}, 
-	],
-  patternsSidebar: [
 		{
 			type: 'doc',
-			id: 'patterns/intro',
+			id: 'intercom/usecases/intro',
 			label: 'Intro',
 		}, 
 		{
@@ -103,7 +101,7 @@ const sidebars: SidebarsConfig = {
     }, 
 		{
 			type: 'doc',
-			id: 'patterns/state',
+			id: 'intercom/usecases/state',
 			label: 'Mutichain State',
 		}, 
 		{
@@ -111,12 +109,12 @@ const sidebars: SidebarsConfig = {
 			label: 'Multichain State Patterns',
 			link: {
 				type: "doc",
-				id: 'patterns/patterns/intro',
+				id: 'intercom/usecases/patterns/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/patterns/clone',
-				'patterns/patterns/masterslave',
+				'intercom/usecases/patterns/clone',
+				'intercom/usecases/patterns/masterslave',
 			]
 		}, 
 		{
@@ -124,7 +122,7 @@ const sidebars: SidebarsConfig = {
 			label: 'Issuer Use Cases',
 			link: {
 				type: "doc",
-				id: 'patterns/issuer/intro',
+				id: 'intercom/usecases/issuer/intro',
 			},
 			collapsible: true,
 			items: [
@@ -133,13 +131,13 @@ const sidebars: SidebarsConfig = {
 					label: 'Token Design',
 					link: {
 						type: "doc",
-						id: 'patterns/issuer/capture/intro',
+						id: 'intercom/usecases/issuer/capture/intro',
 					},
 					collapsible: true,
 					items: [
-						'patterns/issuer/capture/speculative',
-						'patterns/issuer/capture/utility',
-						'patterns/issuer/capture/intrinsic',
+						'intercom/usecases/issuer/capture/speculative',
+						'intercom/usecases/issuer/capture/utility',
+						'intercom/usecases/issuer/capture/intrinsic',
 					]
 				}, 
 				{
@@ -147,14 +145,14 @@ const sidebars: SidebarsConfig = {
 					label: 'Network Presence',
 					link: {
 						type: "doc",
-						id: 'patterns/issuer/presence/intro',
+						id: 'intercom/usecases/issuer/presence/intro',
 					},
 					collapsible: true,
 					items: [
-						'patterns/issuer/presence/creation',
-						'patterns/issuer/presence/onboarding',
-						'patterns/issuer/presence/rebalancing',
-						'patterns/issuer/presence/withdrawing',
+						'intercom/usecases/issuer/presence/creation',
+						'intercom/usecases/issuer/presence/onboarding',
+						'intercom/usecases/issuer/presence/rebalancing',
+						'intercom/usecases/issuer/presence/withdrawing',
 					]
 				}, 
 				{
@@ -162,13 +160,13 @@ const sidebars: SidebarsConfig = {
 					label: 'DeFi Services',
 					link: {
 						type: "doc",
-						id: 'patterns/issuer/defi/intro',
+						id: 'intercom/usecases/issuer/defi/intro',
 					},
 					collapsible: true,
 					items: [
-						'patterns/issuer/defi/exchanges',
-						'patterns/issuer/defi/staking',
-						'patterns/issuer/defi/lending',
+						'intercom/usecases/issuer/defi/exchanges',
+						'intercom/usecases/issuer/defi/staking',
+						'intercom/usecases/issuer/defi/lending',
 					]
 				}, 
 			]
@@ -178,7 +176,7 @@ const sidebars: SidebarsConfig = {
 			label: 'Holder Use Cases',
 			link: {
 				type: "doc",
-				id: 'patterns/holder/intro',
+				id: 'intercom/usecases/holder/intro',
 			},
 			collapsible: true,
 			items: [
@@ -187,34 +185,34 @@ const sidebars: SidebarsConfig = {
 					label: 'Network Presence',
 					link: {
 						type: "doc",
-						id: 'patterns/holder/presence/intro',
+						id: 'intercom/usecases/holder/presence/intro',
 					},
 					collapsible: true,
 					items: [
-						'patterns/holder/presence/moving',
+						'intercom/usecases/holder/presence/moving',
 					]
 				}, {
 					type: 'category',
 					label: 'Operation',
 					link: {
 						type: "doc",
-						id: 'patterns/holder/operation/intro',
+						id: 'intercom/usecases/holder/operation/intro',
 					},
 					collapsible: true,
 					items: [
-						'patterns/holder/operation/transfer',
-						'patterns/holder/operation/swap',
+						'intercom/usecases/holder/operation/transfer',
+						'intercom/usecases/holder/operation/swap',
 					]
 				}, {
 					type: 'category',
 					label: 'Retail',
 					link: {
 						type: "doc",
-						id: 'patterns/holder/retail/intro',
+						id: 'intercom/usecases/holder/retail/intro',
 					},
 					collapsible: true,
 					items: [
-						'patterns/holder/retail/payments',
+						'intercom/usecases/holder/retail/payments',
 					]
 				}, 
 			]
@@ -223,17 +221,24 @@ const sidebars: SidebarsConfig = {
 			label: 'Intends Use Cases',
 			link: {
 				type: "doc",
-				id: 'patterns/intends/intro',
+				id: 'intercom/usecases/intends/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/intends/solvers',
+				'intercom/usecases/intends/solvers',
 			]
 		}, 
 		{
 			type: 'doc',
-			id: 'patterns/bridge',
+			id: 'intercom/usecases/bridge',
 			label: 'Bridge Pattern',
+		}, 
+	],
+  adaptersSidebar: [
+		{
+			type: 'doc',
+			id: 'adapters/intro',
+			label: 'Adapters',
 		}, 
 	],
 
