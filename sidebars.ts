@@ -24,16 +24,28 @@ const sidebars: SidebarsConfig = {
 			label: 'Intro',
 		}, {
 			type: 'doc',
-			id: 'intercom/direct',
-			label: 'Direct Invocation',
-		}, {
-			type: 'doc',
 			id: 'intercom/model',
 			label: 'Communication Model',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, {
+		}, {
+			type: 'category',
+			label: 'Topologies',
+			link: {
+				type: "doc",
+				id: 'intercom/topologies/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/topologies/chains',
+				'intercom/topologies/relayers',
+				'intercom/topologies/validators',
+				'intercom/topologies/provers',
+				'intercom/topologies/routers',
+				'intercom/topologies/sequencers',
+			]
+		}, {
 			type: 'category',
 			label: 'Trust Models',
 			link: {
@@ -48,32 +60,27 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
-			label: 'Execution Models',
+			label: 'Interop Paradigms',
 			link: {
 				type: "doc",
-				id: 'intercom/patterns/intro',
+				id: 'intercom/paradigms/intro',
 			},
 			collapsible: true,
 			items: [
-				'intercom/patterns/messages',
-				'intercom/patterns/mailbox',
-				'intercom/patterns/execution',
+				'intercom/paradigms/intro',
 			]
 		}, {
 			type: 'category',
-			label: 'Agents',
+			label: 'Execution Models',
 			link: {
 				type: "doc",
-				id: 'intercom/agents/intro',
+				id: 'intercom/execution/intro',
 			},
 			collapsible: true,
 			items: [
-				'intercom/agents/chains',
-				'intercom/agents/relayers',
-				'intercom/agents/validators',
-				'intercom/agents/provers',
-				'intercom/agents/routers',
-				'intercom/agents/sequencers',
+				'intercom/execution/atomic',
+				'intercom/execution/saga',
+				'intercom/execution/retry',
 			]
 		}, 
   ],
