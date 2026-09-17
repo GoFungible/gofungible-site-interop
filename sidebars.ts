@@ -23,12 +23,12 @@ const sidebars: SidebarsConfig = {
 			id: 'intercom/intro',
 			label: 'Intro',
 		}, {
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		}, {
 			type: 'doc',
 			id: 'intercom/model',
 			label: 'Communication Model',
-		}, {
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
 		}, {
 			type: 'category',
 			label: 'Topologies',
@@ -82,8 +82,11 @@ const sidebars: SidebarsConfig = {
 				'intercom/execution/saga',
 				'intercom/execution/retry',
 			]
+		}, {
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		}, 
-  ],
+	],
   patternsSidebar: [
 		{
 			type: 'doc',

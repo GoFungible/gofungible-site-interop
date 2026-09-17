@@ -1,8 +1,10 @@
 # Interop Paradigms
 ---
 
-## Offchain Driven
+## Interchain
 
-## Onchain Driven
+## Offchain
+
+## Onchain (<-)
 
 ## Intents
