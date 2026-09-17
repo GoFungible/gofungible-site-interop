@@ -26,10 +26,6 @@ const sidebars: SidebarsConfig = {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		}, {
-			type: 'doc',
-			id: 'intercom/model',
-			label: 'Communication Model',
-		}, {
 			type: 'category',
 			label: 'Topologies',
 			link: {
@@ -71,6 +67,17 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
+			label: 'Communication Model',
+			link: {
+				type: "doc",
+				id: 'intercom/communication/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/communication/intro',
+			]
+		}, {
+			type: 'category',
 			label: 'Execution Models',
 			link: {
 				type: "doc",
@@ -86,6 +93,10 @@ const sidebars: SidebarsConfig = {
 			type: 'doc',
 			id: 'intercom/standards',
 			label: 'Standards',
+		}, {
+			type: 'doc',
+			id: 'intercom/agents',
+			label: 'Agents',
 		}, {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
