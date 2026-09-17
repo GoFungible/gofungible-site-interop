@@ -83,6 +83,10 @@ const sidebars: SidebarsConfig = {
 				'intercom/execution/retry',
 			]
 		}, {
+			type: 'doc',
+			id: 'intercom/standards',
+			label: 'Standards',
+		}, {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		}, 
