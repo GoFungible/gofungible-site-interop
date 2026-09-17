@@ -1,3 +1,3 @@
-# On-chain
+# On-chain (ERC-7786)
 ---
 
