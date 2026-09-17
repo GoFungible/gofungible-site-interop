@@ -11,7 +11,6 @@
 	{ "erc": "ERC-3386", "keywords": "standardization.erc20", "title": "ERC-721 and ERC-1155 to ERC-20 Wrapper", "desc": "A standard interface for contracts that create generic ERC-20 tokens which derive from a pool of unique ERC-721/ERC-1155 tokens.", "url": "https://eips.ethereum.org/EIPS/eip-3386" },
 	{ "erc": "ERC-3525", "keywords": "standardization.erc20", "title": "Semi-Fungible Token", "desc": "Defines a specification where ERC-721 compatible tokens with the same SLOT and different IDs are fungible.", "url": "https://eips.ethereum.org/EIPS/eip-3525" },
 	{ "erc": "ERC-1633", "keywords": "standardization.erc20", "title": "Re-Fungible Token Standard (RFT)", "desc": "ERC-20 extension for proportional ownership of an ERC-721 token.", "url": "https://eips.ethereum.org/EIPS/eip-1633" },
-	{ "erc": "ERC-777",  "keywords": "standardization.erc20", "title": "Token Standard", "desc": "This EIP defines standard interfaces and behaviors for token contracts.", "url": "https://eips.ethereum.org/EIPS/eip-777" },
 	{ "erc": "ERC-8049", "keywords": "standardization.erc20", "title": "Tontract-Level Onchain Metadata", "desc": "Onchain metadata for arbitrary contracts with optional Diamond Storage for predictable data storage locations.", "url": "https://eips.ethereum.org/EIPS/eip-8049" },
 
 	{ "erc": "ERC-7681", "keywords": "standardization.dual", "title": "Dual Nature Multi Token Protocol", "desc": "Combining fungible token ERC-20 and multi-token ERC-1155", "url": "https://eips.ethereum.org/EIPS/eip-7681" },
@@ -28,7 +27,11 @@
 	{ "erc": "ERC-1178", "keywords": "standardization.multiassets", "title": "Multi-class Token Standard", "desc": "A standard interface for multi-class fungible tokens.", "url": "https://eips.ethereum.org/EIPS/eip-1178" },
 
 	{ "erc": "ERC-2470", "keywords": "standardization.factory", "title": "Singleton Factory", "desc": "A permissionless factory for deploy of keyless deterministic contracts addresses based on its bytecode.", "url": "https://eips.ethereum.org/EIPS/eip-2470" },
+	{ "erc": "EIP-1014", "keywords": "standardization.factory", "title": "Skinny CREATE2", "desc": "EIP-1014 (Ethereum Improvement Proposal 1014), authored by Vitalik Buterin in April 2018, introduced the CREATE2 opcode (0xf5) to the Ethereum Virtual Machine (EVM).", "url": "https://eips.ethereum.org/EIPS/eip-1014" },
+	{ "erc": "ERC-7955", "keywords": "standardization.factory", "title": "Permissionless CREATE2 Factory", "desc": "A permissionless method and parameters for deploying a CREATE2 factory across EVM chains to a deterministic address using EIP-7702.", "url": "https://eips.ethereum.org/EIPS/eip-7955" },
+	{ "erc": "ERC-3171", "keywords": "standardization.factory", "title": "Permissionless CREATE3 Factory", "desc": "This contract library enables EVM contract creation in a similar way to CREATE2, but without including the contract initCode on the address derivation formula.", "url": "https://github.com/0xsequence/create3" },
 
+	{ "erc": "ERC-1820", "keywords": "standardization.registry", "title": "Pseudo-introspection Registry Contract", "desc": "This standard defines a universal registry smart contract where any address (contract or regular account) can register which interface it supports and which smart contract is responsible for its implementation..", "url": "https://eips.ethereum.org/EIPS/eip-1820" },
 	{ "erc": "ERC-7484", "keywords": "standardization.registry", "title": "Registry Extension for ERC-7579", "desc": "Adapters that allow modular smart accounts to verify the security of modules using a Module Registry", "url": "https://eips.ethereum.org/EIPS/eip-7484" },
 	{ "erc": "ERC-7406", "keywords": "standardization.registry", "title": "Multi-Namespace Onchain Registry", "desc": "An universally accepted multi-namespace registry with mapping structures on the Ethereum", "url": "https://eips.ethereum.org/EIPS/eip-7406" },
 	{ "erc": "ERC-7812", "keywords": "standardization.registry", "title": "ZK Identity Registry", "desc": "Singleton registry system for storing abstract private provable statements.", "url": "https://eips.ethereum.org/EIPS/eip-7812" },
@@ -88,9 +91,10 @@
 	{ "erc": "ERC-1996", "keywords": "standardization.transfer.lifecycle", "title": "Holdable Token", "desc": "An extension to the ERC-20 standard token that allows tokens to be put on hold.", "url": "https://eips.ethereum.org/EIPS/eip-1996" },
 	{ "erc": "ERC-1132", "keywords": "standardization.transfer.lifecycle", "title": "Extending ERC20 with token locking capability", "desc": "An extension to the ERC20 standard with methods for time-locking of tokens within a contract.", "url": "https://eips.ethereum.org/EIPS/eip-1132" },
 
+	{ "erc": "ERC-777",  "keywords": "standardization.transfer.hooks", "title": "Token Standard", "desc": "This EIP defines standard interfaces and behaviors for token contracts.", "url": "https://eips.ethereum.org/EIPS/eip-777" },
 	{ "erc": "ERC-827",  "keywords": "standardization.transfer.hooks", "title": "Token Standard", "desc": "A extension of the standard interface ERC20 for tokens with methods that allows the execution of calls inside transfer and approvals.", "url": "https://github.com/ethereum/EIPs/issues/827" },
 	{ "erc": "ERC-7994", "keywords": "standardization.transfer.hooks", "title": "Purpose-Bound ERC-20 with Conditional Unlock", "desc": "Extends ERC-20 with programmable restrictions, enabling transfers based on multiple unlock conditions as defined in EIP-7291.", "url": "https://eips.ethereum.org/EIPS/eip-7994" },
-	{ "erc": "ERC-1336", "keywords": "standardization.transfer.hooks", "title": "Payable Token Standard", "desc": "Extension for ERC-20 tokens that supports executing callbacks on receiver contracts.", "url": "https://erc1363.org/" },
+	{ "erc": "ERC-1363", "keywords": "standardization.transfer.hooks", "title": "Payable Token Standard", "desc": "Extension for ERC-20 tokens that supports executing callbacks on receiver contracts.", "url": "https://erc1363.org/" },
 
 	{ "erc": "ERC-223",  "keywords": "standardization.transfer.security", "title": "Token Standard", "desc": "Token with transaction handling model", "url": "https://eips.ethereum.org/EIPS/eip-223" },
 	{ "erc": "ERC-7968", "keywords": "standardization.transfer.security", "title": "Owner-Authorized Token Transfer Protocol", "desc": "Enable third parties to transfer tokens authorized by a signed message.", "url": "https://eips.ethereum.org/EIPS/eip-7968" },
@@ -178,15 +182,18 @@
 
 	{ "erc": "ERC-7627", "keywords": "interoperability.messaging", "title": "Secure Messaging Protocol", "desc": "End-to-end encryption for sending messages between users.", "url": "https://eips.ethereum.org/EIPS/eip-7627" },
 	{ "erc": "ERC-6170", "keywords": "interoperability.messaging", "title": "Cross-Chain Messaging Interface", "desc": "A common smart contract interface for interacting with messaging protocols.", "url": "https://eips.ethereum.org/EIPS/eip-6170" },
-	{ "erc": "ERC-7786", "keywords": "interoperability.messaging", "title": "Cross-Chain Messaging Gateway", "desc": "An interface for contracts to send and receive cross-chain messages containing arbitrary data.", "url": "https://eips.ethereum.org/EIPS/eip-7786" },
 	{ "erc": "ERC-7841", "keywords": "interoperability.messaging", "title": "Cross-chain Message Format and Mailbox", "desc": "A mailbox API and message format to provide a unified cross-chain developer experience.", "url": "https://eips.ethereum.org/EIPS/eip-7841" },
+	{ "erc": "ERC-7786", "keywords": "interoperability.messaging", "title": "Cross-Chain Messaging Gateway", "desc": "An interface for contracts to send and receive cross-chain messages containing arbitrary data.", "url": "https://eips.ethereum.org/EIPS/eip-7786" },
+	{ "erc": "ERC-7985", "keywords": "interoperability.messaging", "title": "Gateway Attributes for Message Control", "desc": "Gateway attributes for cancellation, timeout, retry, dependencies, and delivery control in cross-chain messaging.", "url": "https://eips.ethereum.org/EIPS/eip-7985" },
 	{ "erc": "ERC-8180", "keywords": "interoperability.messaging", "title": "Blob Authenticated Messaging", "desc": "Interfaces for authenticated messaging over EIP-4844 blobs with on-chain decoder discovery.", "url": "https://eips.ethereum.org/EIPS/eip-8180" },
+	{ "erc": "ERC-7854", "keywords": "interoperability.messaging", "title": "Verification-independent Cross-Chain Messaging", "desc": "Multi-Phase Tokens.", "url": "https://eco.com/support/en/articles/10944322-what-is-erc-7854-multi-phase-token-standard" },
 
 	{ "erc": "ERC-5164", "keywords": "interoperability.execution", "title": "Cross-Chain Execution", "desc": "Defines an interface that supports execution across EVM networks.", "url": "https://eips.ethereum.org/EIPS/eip-5164" },
 	{ "erc": "ERC-8121", "keywords": "interoperability.execution", "title": "Cross-Chain Function Calls via Hooks", "desc": "A method for delegating metadata resolution to a different contract via hooks.", "url": "https://github.com/ethereum/ERCs/pull/1456" },
 
 	{ "erc": "ERC-7802", "keywords": "interoperability.bridge", "title": "Token With Mint/Burn Access Across Chains", "desc": "Allow authorized contracts to mint and burn token representations during crosschain transfers", "url": "https://eips.ethereum.org/EIPS/eip-7802" },
 	{ "erc": "ERC-7518", "keywords": "interoperability.bridge", "title": "Dynamic Compliant Interop Security Token", "desc": "Security token framework with semi-fungible partitions for dynamic regulatory compliance management and cross-chain interoperability", "url": "https://eips.ethereum.org/EIPS/eip-7518" },
+	{ "erc": "ERC-7281", "keywords": "interoperability.bridge", "title": "Sovereign Bridged Token (xERC20)", "desc": "EIP-7281 enhances the user experience and incentives around bridging.", "url": "https://qualitax.gitbook.io/interop/industry-initiatives/eip-7281-sovereign-bridged-token" },
 
 	{ "erc": "ERC-7683", "keywords": "interoperability.intends", "title": "Cross Chain Intents", "desc": "An interface for cross-chain trade execution systems.", "url": "https://eips.ethereum.org/EIPS/eip-7683" },
 	{ "erc": "ERC-7795", "keywords": "interoperability.intends", "title": "Wallet Call Token Capabilities", "desc": "Wallet Call API extension for transaction prerequisites for common token types", "url": "https://eips.ethereum.org/EIPS/eip-7795" },

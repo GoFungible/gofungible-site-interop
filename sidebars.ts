@@ -48,6 +48,19 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
+			label: 'Execution Models',
+			link: {
+				type: "doc",
+				id: 'intercom/patterns/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/patterns/messages',
+				'intercom/patterns/mailbox',
+				'intercom/patterns/execution',
+			]
+		}, {
+			type: 'category',
 			label: 'Agents',
 			link: {
 				type: "doc",
@@ -61,19 +74,6 @@ const sidebars: SidebarsConfig = {
 				'intercom/agents/provers',
 				'intercom/agents/routers',
 				'intercom/agents/sequencers',
-			]
-		}, {
-			type: 'category',
-			label: 'Communication Patterns',
-			link: {
-				type: "doc",
-				id: 'intercom/patterns/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/patterns/messages',
-				'intercom/patterns/mailbox',
-				'intercom/patterns/execution',
 			]
 		}, 
   ],
