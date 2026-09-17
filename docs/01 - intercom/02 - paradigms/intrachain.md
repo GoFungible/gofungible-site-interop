@@ -1,11 +1,8 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
 import erc from "/static/data/erc.json"
 
-
-# Chains
+# Interchain
 ---
-
-
 
 ## Identification related ERCs
 
@@ -27,5 +24,3 @@ import erc from "/static/data/erc.json"
 		}
 	})}
 </table>
-
-

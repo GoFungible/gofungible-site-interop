@@ -38,10 +38,7 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'intercom/topologies/chains',
 				'intercom/topologies/relayers',
-				'intercom/topologies/validators',
-				'intercom/topologies/provers',
 				'intercom/topologies/routers',
 				'intercom/topologies/sequencers',
 			]
@@ -54,7 +51,10 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'intercom/paradigms/intro',
+				'intercom/paradigms/intrachain',
+				'intercom/paradigms/offchain',
+				'intercom/paradigms/onchain',
+				'intercom/paradigms/intents',
 			]
 		}, {
 			type: 'category',
