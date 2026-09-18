@@ -91,6 +91,145 @@ const sidebars: SidebarsConfig = {
 				'intercom/execution/retry',
 			]
 		}, {
+			type: 'category',
+			label: 'Use Cases',
+			link: {
+				type: "doc",
+				id: 'intercom/usecases/intro',
+			},
+			collapsible: true,
+			items: [
+				{
+					type: 'category',
+					label: 'Token Use Cases',
+					link: {
+						type: "doc",
+						id: 'intercom/usecases/token/intro',
+					},
+					collapsible: true,
+					items: [
+						'intercom/usecases/token/clone',
+						'intercom/usecases/token/masterslave',
+					]
+				}, 
+				{
+					type: 'category',
+					label: 'Issuer Use Cases',
+					link: {
+						type: "doc",
+						id: 'intercom/usecases/issuer/intro',
+					},
+					collapsible: true,
+					items: [
+						{
+							type: 'category',
+							label: 'Token Design',
+							link: {
+								type: "doc",
+								id: 'intercom/usecases/issuer/capture/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/usecases/issuer/capture/speculative',
+								'intercom/usecases/issuer/capture/utility',
+								'intercom/usecases/issuer/capture/intrinsic',
+							]
+						}, 
+						{
+							type: 'category',
+							label: 'Network Presence',
+							link: {
+								type: "doc",
+								id: 'intercom/usecases/issuer/presence/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/usecases/issuer/presence/creation',
+								'intercom/usecases/issuer/presence/onboarding',
+								'intercom/usecases/issuer/presence/rebalancing',
+								'intercom/usecases/issuer/presence/withdrawing',
+							]
+						}, 
+						{
+							type: 'category',
+							label: 'DeFi Services',
+							link: {
+								type: "doc",
+								id: 'intercom/usecases/issuer/defi/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/usecases/issuer/defi/exchanges',
+								'intercom/usecases/issuer/defi/staking',
+								'intercom/usecases/issuer/defi/lending',
+							]
+						}, 
+					]
+				}, 
+				{
+					type: 'category',
+					label: 'Holder Use Cases',
+					link: {
+						type: "doc",
+						id: 'intercom/usecases/holder/intro',
+					},
+					collapsible: true,
+					items: [
+						{
+							type: 'category',
+							label: 'Network Presence',
+							link: {
+								type: "doc",
+								id: 'intercom/usecases/holder/presence/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/usecases/holder/presence/moving',
+							]
+						}, {
+							type: 'category',
+							label: 'Operation',
+							link: {
+								type: "doc",
+								id: 'intercom/usecases/holder/operation/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/usecases/holder/operation/transfer',
+								'intercom/usecases/holder/operation/swap',
+							]
+						}, {
+							type: 'category',
+							label: 'Retail',
+							link: {
+								type: "doc",
+								id: 'intercom/usecases/holder/retail/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/usecases/holder/retail/payments',
+							]
+						}, 
+					]
+				}, {
+					type: 'category',
+					label: 'Intends Use Cases',
+					link: {
+						type: "doc",
+						id: 'intercom/usecases/intends/intro',
+					},
+					collapsible: true,
+					items: [
+						'intercom/usecases/intends/solvers',
+					]
+				}, 
+				{
+					type: 'doc',
+					id: 'intercom/usecases/bridge',
+					label: 'Bridge Pattern',
+				}, 
+			]
+		}, {
 			type: 'doc',
 			id: 'intercom/standards',
 			label: 'Standards',
@@ -98,138 +237,6 @@ const sidebars: SidebarsConfig = {
 			type: 'doc',
 			id: 'intercom/agents',
 			label: 'Agents',
-		}, {
-			type: 'html',
-      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		}, 
-		{
-			type: 'category',
-			label: 'Token Use Cases',
-			link: {
-				type: "doc",
-				id: 'intercom/usecases/token/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/usecases/token/clone',
-				'intercom/usecases/token/masterslave',
-			]
-		}, 
-		{
-			type: 'category',
-			label: 'Issuer Use Cases',
-			link: {
-				type: "doc",
-				id: 'intercom/usecases/issuer/intro',
-			},
-			collapsible: true,
-			items: [
-				{
-					type: 'category',
-					label: 'Token Design',
-					link: {
-						type: "doc",
-						id: 'intercom/usecases/issuer/capture/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/usecases/issuer/capture/speculative',
-						'intercom/usecases/issuer/capture/utility',
-						'intercom/usecases/issuer/capture/intrinsic',
-					]
-				}, 
-				{
-					type: 'category',
-					label: 'Network Presence',
-					link: {
-						type: "doc",
-						id: 'intercom/usecases/issuer/presence/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/usecases/issuer/presence/creation',
-						'intercom/usecases/issuer/presence/onboarding',
-						'intercom/usecases/issuer/presence/rebalancing',
-						'intercom/usecases/issuer/presence/withdrawing',
-					]
-				}, 
-				{
-					type: 'category',
-					label: 'DeFi Services',
-					link: {
-						type: "doc",
-						id: 'intercom/usecases/issuer/defi/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/usecases/issuer/defi/exchanges',
-						'intercom/usecases/issuer/defi/staking',
-						'intercom/usecases/issuer/defi/lending',
-					]
-				}, 
-			]
-		}, 
-		{
-			type: 'category',
-			label: 'Holder Use Cases',
-			link: {
-				type: "doc",
-				id: 'intercom/usecases/holder/intro',
-			},
-			collapsible: true,
-			items: [
-				{
-					type: 'category',
-					label: 'Network Presence',
-					link: {
-						type: "doc",
-						id: 'intercom/usecases/holder/presence/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/usecases/holder/presence/moving',
-					]
-				}, {
-					type: 'category',
-					label: 'Operation',
-					link: {
-						type: "doc",
-						id: 'intercom/usecases/holder/operation/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/usecases/holder/operation/transfer',
-						'intercom/usecases/holder/operation/swap',
-					]
-				}, {
-					type: 'category',
-					label: 'Retail',
-					link: {
-						type: "doc",
-						id: 'intercom/usecases/holder/retail/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/usecases/holder/retail/payments',
-					]
-				}, 
-			]
-		}, {
-			type: 'category',
-			label: 'Intends Use Cases',
-			link: {
-				type: "doc",
-				id: 'intercom/usecases/intends/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/usecases/intends/solvers',
-			]
-		}, 
-		{
-			type: 'doc',
-			id: 'intercom/usecases/bridge',
-			label: 'Bridge Pattern',
 		}, 
 	],
   adaptersSidebar: [
