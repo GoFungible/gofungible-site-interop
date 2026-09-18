@@ -37,7 +37,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-            node-version: 20.5.0
+            node-version: 22.12.0
             cache: "npm"
             # The action defaults to search for the dependency file
             # (package-lock.json or yarn.lock) in the repository root, and uses
