@@ -103,30 +103,16 @@ const sidebars: SidebarsConfig = {
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		}, 
 		{
-			type: 'doc',
-			id: 'intercom/usecases/intro',
-			label: 'Intro',
-		}, 
-		{
-			type: 'html',
-      value: '<div class="border border-1 m-3" />',
-    }, 
-		{
-			type: 'doc',
-			id: 'intercom/usecases/state',
-			label: 'Mutichain State',
-		}, 
-		{
 			type: 'category',
-			label: 'Multichain State Patterns',
+			label: 'Token Use Cases',
 			link: {
 				type: "doc",
-				id: 'intercom/usecases/patterns/intro',
+				id: 'intercom/usecases/token/intro',
 			},
 			collapsible: true,
 			items: [
-				'intercom/usecases/patterns/clone',
-				'intercom/usecases/patterns/masterslave',
+				'intercom/usecases/token/clone',
+				'intercom/usecases/token/masterslave',
 			]
 		}, 
 		{

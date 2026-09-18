@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Clone Pattern
+# Clone State Pattern
 ---
 
 The total supply variable was introduced to prevent issuers make a misuse of supply operations (printing and burning tokens). This was motivated because supply was open to bridges operated externally to tokens. 

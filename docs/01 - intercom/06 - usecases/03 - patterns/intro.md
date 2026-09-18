@@ -1,4 +1,0 @@
-
-# Multichain State Patterns
----
-
