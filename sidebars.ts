@@ -21,10 +21,10 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'intercom/intro',
-			label: 'Intro',
+			label: 'No Direct Communication',
 		}, {
 			type: 'category',
-			label: 'Lanscape',
+			label: 'Lanscape of Solutions',
 			link: {
 				type: "doc",
 				id: 'intercom/landscape/intro',

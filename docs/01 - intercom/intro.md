@@ -4,7 +4,7 @@ import erc from "/static/data/erc.json"
 # Cross-chain Communication
 ---
 
-## The problem of Direct Invokations
+## The problem of Direct Invocations
 
 As smart contracts running in a blockchain, tokens were designed to be isolated. Despite a token can invoke another token in the same blockchain, a token cannot directly invoke another token from a different blockchain.
 
