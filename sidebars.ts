@@ -24,27 +24,15 @@ const sidebars: SidebarsConfig = {
 			label: 'Intro',
 		}, {
 			type: 'category',
-			label: 'Landscape',
+			label: 'Lanscape',
 			link: {
 				type: "doc",
 				id: 'intercom/landscape/intro',
 			},
 			collapsible: true,
 			items: [
-				'intercom/landscape/relayers',
-				'intercom/landscape/routers',
-				'intercom/landscape/sequencers',
-			]
-		}, {
-			type: 'category',
-			label: 'Topologies',
-			link: {
-				type: "doc",
-				id: 'intercom/topologies/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/topologies/intro',
+				'intercom/landscape/topologies',
+				'intercom/landscape/agents',
 			]
 		}, {
 			type: 'category',
