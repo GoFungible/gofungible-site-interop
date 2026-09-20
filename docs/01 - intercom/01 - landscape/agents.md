@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Agents
+# Communication Agents
 ---
 
 import JSONTable from '@site/src/components/ui/JSONTable';
@@ -13,9 +13,8 @@ import erc from "/static/data/erc.json"
 
 ## Routers
 
-## Sequencers
 
-## Routing related ERCs
+### Routing related ERCs
 
 <table>
 	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
@@ -35,3 +34,5 @@ import erc from "/static/data/erc.json"
 		}
 	})}
 </table>
+
+## Sequencers

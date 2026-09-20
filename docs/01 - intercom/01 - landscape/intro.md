@@ -1,5 +1,6 @@
 
 # Landscape of Solutions
+---
 
 <div style={{overflowX : 'auto'}}>
 	<table style={{textAlign: 'center'}}>
