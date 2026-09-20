@@ -4,6 +4,8 @@ import erc from "/static/data/erc.json"
 # Interchain
 ---
 
+
+
 ## Identification related ERCs
 
 <table>

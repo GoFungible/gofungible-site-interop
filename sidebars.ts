@@ -114,6 +114,7 @@ const sidebars: SidebarsConfig = {
 					items: [
 						'intercom/usecases/token/clone',
 						'intercom/usecases/token/masterslave',
+						'intercom/usecases/token/messaging',
 					]
 				}, 
 				{
@@ -233,14 +234,6 @@ const sidebars: SidebarsConfig = {
 					label: 'Bridge Pattern',
 				}, 
 			]
-		}, {
-			type: 'doc',
-			id: 'intercom/standards',
-			label: 'Standards',
-		}, {
-			type: 'doc',
-			id: 'intercom/agents',
-			label: 'Agents',
 		}, 
 	],
   adaptersSidebar: [
