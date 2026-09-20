@@ -23,9 +23,6 @@ const sidebars: SidebarsConfig = {
 			id: 'intercom/intro',
 			label: 'Intro',
 		}, {
-			type: 'html',
-      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		}, {
 			type: 'category',
 			label: 'Topologies',
 			link: {
@@ -53,21 +50,15 @@ const sidebars: SidebarsConfig = {
 				'intercom/paradigms/intents',
 			]
 		}, {
-			type: 'category',
-			label: 'Trust Models',
-			link: {
-				type: "doc",
-				id: 'intercom/trust/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/trust/trusted',
-				'intercom/trust/minimized',
-				'intercom/trust/trustless',
-			]
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		}, {
+			type: 'doc',
+			id: 'intercom/p2ponchain',
+			label: 'P2P Onchain Communication',
 		}, {
 			type: 'category',
-			label: 'Communication Model',
+			label: 'Communication Models',
 			link: {
 				type: "doc",
 				id: 'intercom/communication/intro',
@@ -89,6 +80,19 @@ const sidebars: SidebarsConfig = {
 				'intercom/execution/atomic',
 				'intercom/execution/saga',
 				'intercom/execution/retry',
+			]
+		}, {
+			type: 'category',
+			label: 'Trust Models',
+			link: {
+				type: "doc",
+				id: 'intercom/trust/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/trust/trusted',
+				'intercom/trust/minimized',
+				'intercom/trust/trustless',
 			]
 		}, {
 			type: 'category',
