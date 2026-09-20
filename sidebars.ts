@@ -24,6 +24,19 @@ const sidebars: SidebarsConfig = {
 			label: 'Intro',
 		}, {
 			type: 'category',
+			label: 'Landscape',
+			link: {
+				type: "doc",
+				id: 'intercom/landscape/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/landscape/relayers',
+				'intercom/landscape/routers',
+				'intercom/landscape/sequencers',
+			]
+		}, {
+			type: 'category',
 			label: 'Topologies',
 			link: {
 				type: "doc",
@@ -31,9 +44,7 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'intercom/topologies/relayers',
-				'intercom/topologies/routers',
-				'intercom/topologies/sequencers',
+				'intercom/topologies/intro',
 			]
 		}, {
 			type: 'category',
