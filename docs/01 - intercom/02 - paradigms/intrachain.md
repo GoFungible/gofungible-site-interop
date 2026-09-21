@@ -4,7 +4,13 @@ import erc from "/static/data/erc.json"
 # Interchain
 ---
 
+Interchain solution aim to enable crosschain interoperability by connecting the blockchains natively which each other.
 
+## BoB
+
+## Notary Schemes
+
+## Layer0
 
 ## Identification related ERCs
 
