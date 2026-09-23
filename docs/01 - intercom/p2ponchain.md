@@ -1,4 +1,4 @@
-# P2P On-chain Communication
+# Decentralized P2P Communication
 ---
 
 

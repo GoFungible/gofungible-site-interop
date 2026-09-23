@@ -36,7 +36,7 @@ const sidebars: SidebarsConfig = {
 			]
 		}, {
 			type: 'category',
-			label: 'Interop Paradigms',
+			label: 'Communication Paradigms',
 			link: {
 				type: "doc",
 				id: 'intercom/paradigms/intro',
@@ -44,8 +44,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'intercom/paradigms/intrachain',
-				'intercom/paradigms/offchain',
-				'intercom/paradigms/onchain',
+				'intercom/paradigms/centralized',
+				'intercom/paradigms/decentralized',
 				'intercom/paradigms/intents',
 			]
 		}, {
