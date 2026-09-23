@@ -54,7 +54,7 @@ const sidebars: SidebarsConfig = {
 		}, {
 			type: 'doc',
 			id: 'intercom/p2ponchain',
-			label: 'P2P Onchain Communication',
+			label: 'Decentralized P2P Comm.',
 		}, {
 			type: 'category',
 			label: 'Communication Models',

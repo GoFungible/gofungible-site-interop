@@ -84,10 +84,10 @@ const config: Config = {
     },
 
 		navbar: {
-      title: 'Fungible Interoperability',
+      title: 'Token Interoperability',
       hideOnScroll: true,
       logo: {
-        alt: 'Fungible Interoperability',
+        alt: 'Token Interoperability',
         src: 'img/favicon-96x96.png',
       },
       items: [
