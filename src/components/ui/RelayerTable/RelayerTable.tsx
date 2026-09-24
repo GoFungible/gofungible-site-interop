@@ -3,7 +3,7 @@ import TanStackTable from '../../basic/TanStackTable/TanStackTable';
 
 // 1. Define the interface for your parameters (props)
 interface RelayerTableProps {
-  filter?: (info) => boolean;
+  filter: (info) => boolean;
 }
 
 const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) => {
@@ -18,13 +18,12 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
 		 }, []);
 
   const columns = [
-		/*{
+		{
       accessorKey: 'type',
       header: 'Type',
-			visi
-    },*/
+    },
 		{
-      accessorKey: 'model',
+      accessorKey: 'trust',
       header: 'Trust Model',
     },
     {
