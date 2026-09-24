@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import TanStackTable from '../../basic/TanStackTable/TanStackTable';
 
-const RelayerTable: React.FC = () => {
+// 1. Define the interface for your parameters (props)
+interface RelayerTableProps {
+  filter?: (info) => boolean;
+}
+
+const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) => {
 
 	const [data, setData] = useState([]);
 
@@ -13,13 +18,14 @@ const RelayerTable: React.FC = () => {
 		 }, []);
 
   const columns = [
-    {
-      accessorKey: 'model',
-      header: 'Trust Model',
-    },
-		{
+		/*{
       accessorKey: 'type',
       header: 'Type',
+			visi
+    },*/
+		{
+      accessorKey: 'model',
+      header: 'Trust Model',
     },
     {
       accessorKey: 'name',
@@ -27,6 +33,7 @@ const RelayerTable: React.FC = () => {
 			cell: (info: any) => {
 				const name = info.getValue();
 				const url = info.row.original.infoURL;
+
 				return (
 					<a href={url} target='_blank'><strong>{name}</strong></a>
 				);
@@ -38,7 +45,7 @@ const RelayerTable: React.FC = () => {
   return (
     <div>
       <TanStackTable
-        data={data}
+        data={data.filter(item => params.filter(item))}
         columns={columns}
         showPagination={true}
         showGlobalFilter={true}
