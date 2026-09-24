@@ -1,3 +1,0 @@
-# Centralized Communication
----
-

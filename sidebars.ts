@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'intercom/intro',
-			label: 'No Direct Communication',
+			label: 'The Isolated Chains Problem',
 		}, {
 			type: 'category',
 			label: 'Lanscape of Solutions',
@@ -44,8 +44,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'intercom/paradigms/intrachain',
-				'intercom/paradigms/centralized',
-				'intercom/paradigms/decentralized',
+				'intercom/paradigms/orchestrator',
+				'intercom/paradigms/intercontract',
 				'intercom/paradigms/intents',
 			]
 		}, {
