@@ -16,7 +16,7 @@ export default function Home(): ReactNode {
 
 			<BackgroundImageHeader
         backgroundImage="https://scx2.b-cdn.net/gfx/news/hires/2013/subarcticlak.jpg"
-        title="Cross-chain Token Interoperability"
+        title="Cross-chain Contract Interoperability"
         subtitle="Implementation of ERC-7786 Adapters"
         textSide="right"
         overlayOpacity={0.4}
