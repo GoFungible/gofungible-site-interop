@@ -44,43 +44,7 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'intercom/paradigms/intrachain',
-				{
-					type: 'category',
-					label: 'Contract To Contract',
-					link: {
-						type: "doc",
-						id: 'intercom/paradigms/intercontract/intro',
-					},
-					collapsible: true,
-					items: [
-						{
-							type: 'category',
-							label: 'Communication Models',
-							link: {
-								type: "doc",
-								id: 'intercom/paradigms/intercontract/communication/intro',
-							},
-							collapsible: true,
-							items: [
-								'intercom/paradigms/intercontract/communication/1way',
-								'intercom/paradigms/intercontract/communication/2way',
-							]
-						}, {
-							type: 'category',
-							label: 'Execution Models',
-							link: {
-								type: "doc",
-								id: 'intercom/paradigms/intercontract/execution/intro',
-							},
-							collapsible: true,
-							items: [
-								'intercom/paradigms/intercontract/execution/atomic',
-								'intercom/paradigms/intercontract/execution/saga',
-								'intercom/paradigms/intercontract/execution/retry',
-							]
-						}
-					]
-				},
+				'intercom/paradigms/intercontract',
 				'intercom/paradigms/orchestrator',
 				'intercom/paradigms/intents',
 			]
@@ -121,8 +85,37 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'adapters/intro',
+			label: 'Intro',
+		}, {
+			type: 'category',
+			label: 'Communication Models',
+			link: {
+				type: "doc",
+				id: 'adapters/communication/intro',
+			},
+			collapsible: true,
+			items: [
+				'adapters/communication/1way',
+				'adapters/communication/2way',
+			]
+		}, {
+			type: 'category',
+			label: 'Execution Models',
+			link: {
+				type: "doc",
+				id: 'adapters/execution/intro',
+			},
+			collapsible: true,
+			items: [
+				'adapters/execution/atomic',
+				'adapters/execution/saga',
+				'adapters/execution/retry',
+			]
+		}, {
+			type: 'doc',
+			id: 'adapters/adapters',
 			label: 'Adapters',
-		}, 
+		},
 	],
 
 };
