@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'intercom/intro',
-			label: 'The Isolated Chains Problem',
+			label: 'Overview',
 		}, {
 			type: 'category',
 			label: 'Lanscape of Solutions',
@@ -108,8 +108,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'adapters/execution/atomic',
-				'adapters/execution/saga',
 				'adapters/execution/retry',
+				'adapters/execution/saga',
 			]
 		}, {
 			type: 'doc',

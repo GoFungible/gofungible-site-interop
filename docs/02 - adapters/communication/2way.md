@@ -1,11 +1,10 @@
 
 
-# 2 Way Communication
+# Async Callbacks
 ---
 
 ## 2-Way Messages
 
-Async Callback
 
 fungible standard needs to be designed for failure to guarantee consistency and decentralation
 

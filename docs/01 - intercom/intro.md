@@ -1,10 +1,10 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
 import erc from "/static/data/erc.json"
 
-# The Isolated Chains Problem
+# Overview
 ---
 
-## The problem of Direct Invocations
+## The Isolated Chains Problem
 
 As smart contracts running in a blockchain, tokens were designed to be isolated. Despite a token can invoke another token in the same blockchain, a token cannot directly invoke another token from a different blockchain.
 
