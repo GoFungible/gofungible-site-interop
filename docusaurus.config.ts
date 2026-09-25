@@ -101,7 +101,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'adaptersSidebar',
           position: 'left',
-          label: 'ERC-7786 Adapters',
+          label: 'ERC-7786 Messaging',
         },
 				//{to: '/blog', label: 'Blog', position: 'right'},
         {

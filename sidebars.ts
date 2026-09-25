@@ -114,7 +114,7 @@ const sidebars: SidebarsConfig = {
 		}, {
 			type: 'doc',
 			id: 'adapters/adapters',
-			label: 'Adapters',
+			label: 'ERC-7786 Adapters',
 		},
 	],
 

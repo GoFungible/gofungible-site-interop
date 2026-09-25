@@ -1,6 +1,6 @@
 import RelayerTable from '@site/src/components/ui/RelayerTable/RelayerTable.tsx';
 
-# Adapters
+# ERC-7786 Adapters
 ---
 
 <RelayerTable 
