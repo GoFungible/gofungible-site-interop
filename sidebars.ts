@@ -44,41 +44,45 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'intercom/paradigms/intrachain',
+				{
+					type: 'category',
+					label: 'Contract To Contract',
+					link: {
+						type: "doc",
+						id: 'intercom/paradigms/intercontract/intro',
+					},
+					collapsible: true,
+					items: [
+						{
+							type: 'category',
+							label: 'Communication Models',
+							link: {
+								type: "doc",
+								id: 'intercom/paradigms/intercontract/communication/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/paradigms/intercontract/communication/1way',
+								'intercom/paradigms/intercontract/communication/2way',
+							]
+						}, {
+							type: 'category',
+							label: 'Execution Models',
+							link: {
+								type: "doc",
+								id: 'intercom/paradigms/intercontract/execution/intro',
+							},
+							collapsible: true,
+							items: [
+								'intercom/paradigms/intercontract/execution/atomic',
+								'intercom/paradigms/intercontract/execution/saga',
+								'intercom/paradigms/intercontract/execution/retry',
+							]
+						}
+					]
+				},
 				'intercom/paradigms/orchestrator',
-				'intercom/paradigms/intercontract',
 				'intercom/paradigms/intents',
-			]
-		}, {
-			type: 'html',
-      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
-		}, {
-			type: 'doc',
-			id: 'intercom/p2ponchain',
-			label: 'Decentralized P2P Comm.',
-		}, {
-			type: 'category',
-			label: 'Communication Models',
-			link: {
-				type: "doc",
-				id: 'intercom/communication/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/communication/1way',
-				'intercom/communication/2way',
-			]
-		}, {
-			type: 'category',
-			label: 'Execution Models',
-			link: {
-				type: "doc",
-				id: 'intercom/execution/intro',
-			},
-			collapsible: true,
-			items: [
-				'intercom/execution/atomic',
-				'intercom/execution/saga',
-				'intercom/execution/retry',
 			]
 		}, {
 			type: 'category',
@@ -94,15 +98,19 @@ const sidebars: SidebarsConfig = {
 				'intercom/trust/trustless',
 			]
 		}, {
+			type: 'html',
+      value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
+		}, {
 			type: 'category',
 			label: 'Use Cases',
 			link: {
 				type: "doc",
 				id: 'intercom/usecases/intro',
 			},
-			collapsible: true,
+			collapsible: false,
 			items: [
-				'intercom/usecases/messaging',
+				'intercom/usecases/state',
+				'intercom/usecases/execution',
 				'intercom/usecases/bridge',
 				'intercom/usecases/payments',
 				'intercom/usecases/swap',

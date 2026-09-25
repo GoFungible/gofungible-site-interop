@@ -1,10 +1,11 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
 import erc from "/static/data/erc.json"
 
-# Interop Paradigms
+# Execution Operations
 ---
 
-## Identification related ERCs
+
+## Execution related ERCs
 
 <table>
 	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
@@ -13,7 +14,7 @@ import erc from "/static/data/erc.json"
 		<th>Description</th>
 	</tr>
 	{erc.map((data, index) => {
-		if (data.keywords == 'interoperability.identification') {
+		if (data.keywords == 'interoperability.execution') {
 			return (
 				<tr>
 					<td><a href={data.url} target="_blank">{data.erc}</a></td>
@@ -24,11 +25,3 @@ import erc from "/static/data/erc.json"
 		}
 	})}
 </table>
-
-## Interchain
-
-## Offchain
-
-## Onchain
-
-## Intents

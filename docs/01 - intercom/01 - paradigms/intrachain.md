@@ -1,8 +1,7 @@
 import JSONTable from '@site/src/components/ui/JSONTable';
-import erc from "/static/data/erc.json"
 import ecosystem from "/static/data/ecosystem_dlt_interop.json"
 
-# Interchain Communication
+# Chain To Chain
 ---
 
 Interchain solution aim to enable crosschain interoperability by connecting the blockchains natively which each other.
@@ -82,23 +81,3 @@ Interchain solution aim to enable crosschain interoperability by connecting the 
 	
 </table>
 
-## Identification related ERCs
-
-<table>
-	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
-		<th>ERC</th>
-		<th>Title</th>
-		<th>Description</th>
-	</tr>
-	{erc.map((data, index) => {
-		if (data.keywords == 'interoperability.identification') {
-			return (
-				<tr>
-					<td><a href={data.url} target="_blank">{data.erc}</a></td>
-					<td>{data.title}</td>
-					<td>{data.desc}</td>
-				</tr>
-			)
-		}
-	})}
-</table>
