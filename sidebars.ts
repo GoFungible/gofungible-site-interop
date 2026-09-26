@@ -87,6 +87,10 @@ const sidebars: SidebarsConfig = {
 			id: 'adapters/intro',
 			label: 'Intro',
 		}, {
+			type: 'doc',
+			id: 'adapters/message',
+			label: 'Sending Cross-chain Messages',
+		}, {
 			type: 'category',
 			label: 'Communication Models',
 			link: {
