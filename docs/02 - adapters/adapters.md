@@ -4,5 +4,5 @@ import RelayerTable from '@site/src/components/ui/RelayerTable/RelayerTable.tsx'
 ---
 
 <RelayerTable 
-  filter={(row) => row.type === 'relayer'} 
+  filter={(row) => (row.type === 'relayer' && row.paradigm === 'GMP') } 
 />
