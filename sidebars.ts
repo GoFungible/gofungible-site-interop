@@ -119,6 +119,10 @@ const sidebars: SidebarsConfig = {
 			type: 'doc',
 			id: 'adapters/adapters',
 			label: 'ERC-7786 Adapters',
+		}, {
+			type: 'doc',
+			id: 'adapters/usecases',
+			label: 'Messaging Use Cases',
 		},
 	],
 
