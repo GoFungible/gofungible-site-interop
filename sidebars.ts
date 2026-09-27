@@ -106,7 +106,6 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'intercom/execution/atomic',
 				'intercom/execution/retry',
 				'intercom/execution/saga',
 			]

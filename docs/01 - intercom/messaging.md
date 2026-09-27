@@ -4,11 +4,6 @@ import erc from "/static/data/erc.json"
 # Contract to Contract Communication
 ---
 
-## Cross-chain Atomic Operations
-
-
-## Cross-chain Atomic Operations Patterns
-
 
 
 ## Anatomy of a Cross-chain Message
