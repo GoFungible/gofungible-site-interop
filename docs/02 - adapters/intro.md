@@ -1,8 +1,5 @@
-# Contract to Contract Communication
+# ERC-7786 Standard
 ---
 
-## Cross-chain Atomic Operations
 
-
-## Cross-chain Atomic Operations Patterns
 

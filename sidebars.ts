@@ -32,7 +32,7 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'intercom/landscape/topologies',
-				'intercom/landscape/agents',
+				'intercom/landscape/routers',
 			]
 		}, {
 			type: 'category',
@@ -62,16 +62,62 @@ const sidebars: SidebarsConfig = {
 				'intercom/trust/trustless',
 			]
 		}, {
+			type: 'doc',
+			id: 'intercom/usecases',
+			label: 'Communication Use Cases',
+		}, {
 			type: 'html',
       value: '<div style="border: 1px solid #dee2e6; margin: 1rem;"/>',
 		}, {
+			type: 'doc',
+			id: 'intercom/messaging',
+			label: 'Contract To Contract Messaging',
+		}, {
 			type: 'category',
-			label: 'Use Cases',
+			label: 'Messaging Agents',
+			link: {
+				type: "doc",
+				id: 'intercom/agents/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/agents/relayers',
+				'intercom/agents/validators',
+				'intercom/agents/provers',
+			]
+		}, {
+			type: 'category',
+			label: 'Communication Models',
+			link: {
+				type: "doc",
+				id: 'intercom/communication/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/communication/1way',
+				'intercom/communication/2way',
+			]
+		}, {
+			type: 'category',
+			label: 'Execution Models',
+			link: {
+				type: "doc",
+				id: 'intercom/execution/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/execution/atomic',
+				'intercom/execution/retry',
+				'intercom/execution/saga',
+			]
+		}, {
+			type: 'category',
+			label: 'Messaging Use Cases',
 			link: {
 				type: "doc",
 				id: 'intercom/usecases/intro',
 			},
-			collapsible: false,
+			collapsible: true,
 			items: [
 				'intercom/usecases/state',
 				'intercom/usecases/execution',
@@ -85,45 +131,12 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'adapters/intro',
-			label: 'Intro',
-		}, {
-			type: 'doc',
-			id: 'adapters/message',
-			label: 'Sending Cross-chain Messages',
-		}, {
-			type: 'category',
-			label: 'Communication Models',
-			link: {
-				type: "doc",
-				id: 'adapters/communication/intro',
-			},
-			collapsible: true,
-			items: [
-				'adapters/communication/1way',
-				'adapters/communication/2way',
-			]
-		}, {
-			type: 'category',
-			label: 'Execution Models',
-			link: {
-				type: "doc",
-				id: 'adapters/execution/intro',
-			},
-			collapsible: true,
-			items: [
-				'adapters/execution/atomic',
-				'adapters/execution/retry',
-				'adapters/execution/saga',
-			]
+			label: 'ERC-7786 Standard',
 		}, {
 			type: 'doc',
 			id: 'adapters/adapters',
 			label: 'ERC-7786 Adapters',
-		}, {
-			type: 'doc',
-			id: 'adapters/usecases',
-			label: 'Messaging Use Cases',
-		},
+		}, 
 	],
 
 };
