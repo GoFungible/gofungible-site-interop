@@ -108,6 +108,7 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'intercom/execution/retry',
 				'intercom/execution/saga',
+				'intercom/execution/multiple',
 			]
 		}, {
 			type: 'category',

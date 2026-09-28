@@ -22,10 +22,6 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
       accessorKey: 'type',
       header: 'Type',
     },
-		{
-      accessorKey: 'trust',
-      header: 'Trust Model',
-    },
     {
       accessorKey: 'name',
       header: 'Name (URL)',
@@ -43,8 +39,26 @@ const RelayerTable: React.FC<RelayerTableProps> = (params: RelayerTableProps) =>
       header: 'Built On',
     },
 		{
+      accessorKey: 'trust',
+      header: 'Trust Model',
+    },
+		{
       accessorKey: 'code',
       header: 'Code',
+			cell: (info: any) => {
+				const code = info.row.original.code;
+
+				if (code != null) {
+					return (
+						<a href={"https://github.com/GoFungible/gofungible-suite-interop/blob/main/contracts/" + code} target='_blank'>🖉</a>
+					);
+				} else {
+					return (
+						""
+					);
+				}
+
+			},
     },
 	];
 
