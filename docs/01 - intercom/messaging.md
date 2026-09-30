@@ -8,7 +8,11 @@ import erc from "/static/data/erc.json"
 
 ## Anatomy of a Cross-chain Message
 
-
+<br/>
+<div style={{textAlign: 'center'}}>
+	<img src="/img/drawings/patterns_messaging.svg" width="100%"></img>
+</div>
+<br/>
 
 ## Message Standards
 
