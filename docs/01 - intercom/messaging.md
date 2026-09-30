@@ -1,6 +1,3 @@
-import JSONTable from '@site/src/components/ui/JSONTable';
-import erc from "/static/data/erc.json"
-
 # Contract to Contract Communication
 ---
 
@@ -10,27 +7,6 @@ import erc from "/static/data/erc.json"
 
 <br/>
 <div style={{textAlign: 'center'}}>
-	<img src="/img/drawings/patterns_messaging.svg" width="100%"></img>
+	<img src="/img/drawings/interop_message.svg" width="80%"></img>
 </div>
 <br/>
-
-## Message Standards
-
-<table>
-	<tr style={{ textAlignVertical: "center", textAlign: "center", 'color': '#000000', 'backgroundColor': '#f0f0f0' }}>
-		<th>ERC</th>
-		<th>Title</th>
-		<th>Description</th>
-	</tr>
-	{erc.map((data, index) => {
-		if (data.keywords == 'interoperability.messaging') {
-			return (
-				<tr>
-					<td><a href={data.url} target="_blank">{data.erc}</a></td>
-					<td>{data.title}</td>
-					<td>{data.desc}</td>
-				</tr>
-			)
-		}
-	})}
-</table>

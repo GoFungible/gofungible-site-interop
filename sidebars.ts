@@ -81,9 +81,9 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
+				'intercom/agents/chains',
+				'intercom/agents/gateways',
 				'intercom/agents/relayers',
-				'intercom/agents/validators',
-				'intercom/agents/provers',
 			]
 		}, {
 			type: 'category',
